@@ -1,0 +1,58 @@
+<!--pages/mymotalk/mycourses/mycourses.wxml-->
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for-items="{{tabs}}" wx:key="{{index}}">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+                <!--我的课程列表  -->
+                  <scroll-view scroll-y='true' style='height:100%;'>
+                    <view class="weui-panel">
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_small-appmsg">
+                    <view class="weui-cells weui-cells_in-small-appmsg">
+                        <navigator url="../../course_details/course_details" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                            <view class="weui-cell__hd"><image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" /></view>
+                            <view class="weui-cell__bd weui-cell_primary">
+                                <view>全部课程</view>
+                            </view>
+                            <view class="weui-cell__ft weui-cell__ft_in-access">点击查看</view>
+                        </navigator>
+                        <navigator url="../courseslist/courseslist" class="weui-cell weui-cell_access" hover-class="weui-cell_active" wx:for="{{[1,2,3,4,5,6]}}" >
+                            <view class="weui-cell__hd"><image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" /></view>
+                            <view class="weui-cell__bd weui-cell_primary">
+                                <view>G{{index+1}} 课程</view>
+                            </view>
+                            <view class="weui-cell__ft weui-cell__ft_in-access">点击查看</view>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+        </view>
+                  </scroll-view>
+                </view>
+
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                <!--课程表  -->
+                <view class='class-info-box'>
+                  <view class='rou-title'>
+                    本周课表
+                  </view>
+                  <view class='somelist' wx:for="{{['一','二','三','四','五']}}">
+                  <text style='float:left'>周{{item}}14：30</text>
+                  <text>课程名</text>
+                  <text style='float:right'>讲师Lina</text>
+                  </view>
+                </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

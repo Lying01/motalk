@@ -1,0 +1,45 @@
+<!--pages/mymotalk/classdetail/classdetail.wxml-->
+<view class='container-lin'>
+  <view class='course-info'>
+    <image class='course-image' src='../../../static/images/course.jpg' mode='scaleToFill'></image>
+    <view class='course-name'>
+      希望以后还有上图这种风景，我骑着行车追着我的狗
+    </view>
+  </view>
+  <view class='class-info-box'>
+    <view class='rou-title'>
+      我的班级
+    </view>
+    <view class='class-detail'>
+      <view>
+        <text class="classInfo-title">班级名称：</text>
+        <text class='className'>you don't know who i am</text>
+      </view>
+      <view>
+        <text class="classInfo-title">教师名称：</text>
+        <text class='className'>link davi</text>
+      </view>
+      <view>
+        <text class="classInfo-title">班　　长：</text>
+        <image src='../../../static/images/detail_kefu.png'></image>
+      </view>
+      <view>
+        <text class="classInfo-title">班级成员：</text>
+        <image src='../../../static/images/detail_kefu.png'></image>
+        <image src='../../../static/images/detail_kefu.png'></image>
+        <image src='../../../static/images/detail_kefu.png'></image>
+      </view>
+      <view>
+        <text class="classInfo-title">上课时间：</text>
+        <text class='className'>2018. 05.30 —— 2018.06.30</text>
+      </view>
+      <view class='progress'>
+        <text class="classInfo-title">上课进度：</text>
+        <text class="">60节 / 100节</text>
+        <progress percent='60' show-info="true" color="#726DD1" active="true"></progress>
+      </view>
+    </view>
+  </view>
+</view>
+
+<button class="iwantxufei">我要续费</button>

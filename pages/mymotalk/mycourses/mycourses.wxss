@@ -1,0 +1,36 @@
+/* pages/mymotalk/mycourses/mycourses.wxss */
+.weui-navbar__slider{
+  background-color: #726DD1;
+}
+
+.weui-navbar__title {
+  color: #726DD1;
+}
+
+.class-info-box{
+  margin-top: 20rpx;
+  padding: 10rpx 0;
+  background-color: #fff;
+}
+
+.rou-title{
+  width: 500rpx;
+  height: 80rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 80rpx;
+  /* margin-top: 5rpx; */
+  padding-left: 20rpx;
+  border-top-right-radius: 40rpx;
+  border-bottom-right-radius: 40rpx;
+  color: #fff;
+  background-color: #726DD1; 
+}
+
+.somelist{
+  margin:20rpx 40rpx;
+  text-align: center;
+}
+.somelist text{
+  display: inline-block;
+}

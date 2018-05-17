@@ -1,0 +1,142 @@
+<!--pages/course/course.wxml-->
+<view class='header'>
+  <view class='select_keyword'>
+    <input placeholder='搜索课程' />
+  </view>
+  <view class="saixuan">
+    <picker bindchange="g_coursechange" value="{{index}}" range="{{g_course}}">
+      <view class="picker g_course">
+        {{g_course[index]}}
+        <view class='iconfont icon-down'></view>
+      </view>
+    </picker>
+    <picker bindchange="type_course" value="{{typeIndex}}" range="{{type_courses}}">
+      <view class="picker g_course">
+        {{type_courses[typeIndex]}}
+        <view class='iconfont icon-down'></view>
+      </view>
+    </picker>
+  </view>
+</view>
+<view class='course_box'>
+  <view class='course_item' bindtap='tojoin_group'>
+    <view class='image_course'>
+    <!-- 课程头像 -->
+    </view>
+    <view class='details_course'>
+    <!-- 课程明细 -->
+      <view class='name_course'>机器学习核心算法实战 [5场直播实时为您解答] 欢迎您报名</view>
+      <view class='info_course'>时间：周三：19:00</view>
+      <view class='teacher_course'>教师：某某某</view>
+      <view>
+        <view class='price_course'>￥2000</view>
+        <view class='num-of-pealpe'>3人团</view>
+      </view>
+    </view>
+  </view>   
+  <view class='course_item' bindtap='tojoin_group'>
+    <view class='image_course'>
+    <!-- 课程头像 -->
+    </view>
+    <view class='details_course'>
+    <!-- 课程明细 -->
+      <view class='name_course'>机器学习核心算法实战 [5场直播实时为您解答] 欢迎您报名</view>
+      <view class='info_course'>时间：周三：19:00</view>
+      <view class='teacher_course'>教师：某某某</view>
+      <view>
+        <view class='price_course'>￥2000</view>
+        <view class='num-of-pealpe'>3人团</view>
+      </view>
+    </view>
+  </view>   
+  <view class='course_item' bindtap='tojoin_group'>
+    <view class='image_course'>
+    <!-- 课程头像 -->
+    </view>
+    <view class='details_course'>
+    <!-- 课程明细 -->
+      <view class='name_course'>机器学习核心算法实战 [5场直播实时为您解答] 欢迎您报名</view>
+      <view class='info_course'>时间：周三：19:00</view>
+      <view class='teacher_course'>教师：某某某</view>
+      <view>
+        <view class='price_course'>￥2000</view>
+        <view class='num-of-pealpe'>3人团</view>
+      </view>
+    </view>
+  </view>   
+  <view class='course_item' bindtap='tojoin_group'>
+    <view class='image_course'>
+    <!-- 课程头像 -->
+    </view>
+    <view class='details_course'>
+    <!-- 课程明细 -->
+      <view class='name_course'>机器学习核心算法实战 [5场直播实时为您解答] 欢迎您报名</view>
+      <view class='info_course'>时间：周三：19:00</view>
+      <view class='teacher_course'>教师：某某某</view>
+      <view>
+        <view class='price_course'>￥2000</view>
+        <view class='num-of-pealpe'>3人团</view>
+      </view>
+    </view>
+  </view>   
+  <view class='course_item' bindtap='tojoin_group'>
+    <view class='image_course'>
+    <!-- 课程头像 -->
+    </view>
+    <view class='details_course'>
+    <!-- 课程明细 -->
+      <view class='name_course'>机器学习核心算法实战 [5场直播实时为您解答] 欢迎您报名</view>
+      <view class='info_course'>时间：周三：19:00</view>
+      <view class='teacher_course'>教师：某某某</view>
+      <view>
+        <view class='price_course'>￥2000</view>
+        <view class='num-of-pealpe'>3人团</view>
+      </view>
+    </view>
+  </view>   
+  <view class='course_item' bindtap='tojoin_group'>
+    <view class='image_course'>
+    <!-- 课程头像 -->
+    </view>
+    <view class='details_course'>
+    <!-- 课程明细 -->
+      <view class='name_course'>机器学习核心算法实战 [5场直播实时为您解答] 欢迎您报名</view>
+      <view class='info_course'>时间：周三：19:00</view>
+      <view class='teacher_course'>教师：某某某</view>
+      <view>
+        <view class='price_course'>￥2000</view>
+        <view class='num-of-pealpe'>3人团</view>
+      </view>
+    </view>
+  </view> 
+  <view class='course_item' bindtap='tojoin_group'>
+    <view class='image_course'>
+    <!-- 课程头像 -->
+    </view>
+    <view class='details_course'>
+    <!-- 课程明细 -->
+      <view class='name_course'>机器学习核心算法实战 [5场直播实时为您解答] 欢迎您报名</view>
+      <view class='info_course'>时间：周三：19:00</view>
+      <view class='teacher_course'>教师：某某某</view>
+      <view>
+        <view class='price_course'>￥2000</view>
+        <view class='num-of-pealpe'>3人团</view>
+      </view>
+    </view>
+  </view> 
+  <view class='course_item' bindtap='tojoin_group'>
+    <view class='image_course'>
+    <!-- 课程头像 -->
+    </view>
+    <view class='details_course'>
+    <!-- 课程明细 -->
+      <view class='name_course'>机器学习核心算法实战 [5场直播实时为您解答] 欢迎您报名</view>
+      <view class='info_course'>时间：周三：19:00</view>
+      <view class='teacher_course'>教师：某某某</view>
+      <view>
+        <view class='price_course'>￥2000</view>
+        <view class='num-of-pealpe'>3人团</view>
+      </view>
+    </view>
+  </view> 
+</view>

@@ -1,0 +1,6 @@
+/* pages/mymotalk/appleave/appleave.wxss */
+.releave{
+  background-color: #726DD1;
+  color: #fff;
+  margin-top: 30rpx;
+}

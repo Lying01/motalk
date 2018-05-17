@@ -1,0 +1,19 @@
+<!--pages/mymotalk/classroomlist/classroomlist.wxml-->
+<!--我的教室之教室详情页  -->
+<scroll-view scroll-y='true' style='height:100%;'>
+  <view wx:for="{{[1,2,3,4,5,6]}}" class='classlist' style='background-color:#fff;' wx:key="showExpress">
+    <button id="{{index}}" class='seeDetail' bindtap='seeDetail'>进入教室</button>
+    <view  class='cover'><image src='../../../static/images/detail_kefu.png'></image></view>
+    <view class='info'>
+      <text><text class='claName'>班级名是BCDBCD名是BCDBC名是BCDBC名是BCDBC</text>班级成员 
+      讲师：小R
+      </text>
+    </view>
+    <view class='classMans'><image src='../../../static/images/detail_kefu.png'></image></view>
+    <view class='classMans' style='margin-left:460rpx'><image src='../../../static/images/detail_kefu.png'></image></view>
+    <view class='classMans' style='margin-left:510rpx'><image src='../../../static/images/detail_kefu.png'></image></view>
+  </view>
+  <view class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+      <view class="weui-loadmore__tips weui-loadmore__tips_in-line weui-loadmore__tips_in-dot"></view>
+  </view>
+</scroll-view>

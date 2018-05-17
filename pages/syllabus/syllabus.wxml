@@ -1,0 +1,15 @@
+<!--pages/syllabus/syllabus.wxml-->
+<view class='syllabus-header'>
+  课程大纲
+</view>
+
+<!-- 大纲内容 -->
+<view class='syllabus-content'>
+  <view class='syllabus-list-item' wx:for="{{syllabus_arr}}" wx:key="unique">
+    <view class='syllabus-info'>
+      <view class='syllabus-num'>{{item.num}}</view>
+      <view class='syllabus-time'>{{item.time}}</view>
+    </view>
+    <view class='syllabus-name'>{{item.name}}</view>
+  </view>
+</view>

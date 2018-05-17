@@ -1,0 +1,20 @@
+<!--pages/mymotalk/previewlist/previewlist.wxml-->
+<scroll-view scroll-y='true' style='height:100%;'>
+  <view wx:for="{{[1,2,3,4,5,6]}}" class='classlist' style='background-color:#fff;' wx:key="showExpress">
+    <!-- <view class="weui-progress"> -->
+            <!-- <view class="weui-progress__bar"> -->
+                <progress percent="{{index+2}}0" stroke-width="3" color='#726DD1'/>
+            <!-- </view> -->
+        <!-- </view> -->
+    <button id="{{index}}" class='seeDetail' bindtap='seeDetail'>开始预习</button>
+    <view  class='cover'><image src='../../../static/images/detail_kefu.png'></image></view>
+    <view class='info'>
+      <text><text class='claName'>历史就读班级历史就读班级历史就读班级</text>
+      <text>课程进度:{{index+3}}/12</text>
+      </text>
+    </view>
+  </view>
+  <view class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+      <view class="weui-loadmore__tips weui-loadmore__tips_in-line weui-loadmore__tips_in-dot"></view>
+  </view>
+</scroll-view>

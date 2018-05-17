@@ -1,0 +1,18 @@
+<!--pages/mymotalk/myreport/myreport.wxml-->
+<scroll-view scroll-y='true' style='height:100%;'>
+  <view class="weui-panel">
+    <view class="weui-panel__bd">
+      <view class="weui-media-box weui-media-box_small-appmsg">
+          <view class="weui-cells weui-cells_in-small-appmsg">
+              <navigator url="../report/report" class="weui-cell weui-cell_access" hover-class="weui-cell_active" wx:for="{{[1,2,3,4,5,6]}}" >
+                  <view class="weui-cell__hd"><image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" /></view>
+                  <view class="weui-cell__bd weui-cell_primary">
+                      <view>班级名 - 讲师{{index+1}}</view>
+                  </view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access">查看报告</view>
+              </navigator>
+          </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>

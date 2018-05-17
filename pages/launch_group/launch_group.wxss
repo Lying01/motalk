@@ -1,0 +1,242 @@
+/* pages/course_details/course_details.wxss */
+page{
+  padding: 0 0 50px 0;
+  margin: 0;
+  font-size: 0;
+  background-color: #f0f0f0
+}
+image{
+  margin: 0;
+  padding: 0;
+  
+}
+.course_names{
+  padding: 5rpx 20rpx;
+  border-bottom: 1px solid #726dd1;
+  background: #fff;
+}
+.name_course{
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 7px;
+  color: #000;
+  margin: 0
+}
+/* 课程信息 */
+.info_course{
+  font-size: 12px;
+  color: rgba(0,0,0,.6);
+  margin-bottom: 5px;
+  margin-top: 20rpx;
+  /* padding-bottom: 20rpx; */
+}
+
+/* 正在拼团盒子 */
+.pintuan-box{
+  font-size: 14px;
+  background-color: #fff;
+  /* margin-top: 40rpx; */
+  padding-bottom: 20rpx;
+}
+/* 正在拼团title */
+.row-title{
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 20rpx;
+  border-left: 15rpx solid  #726dd1;
+}
+.more{
+  float: right;
+  font-size: 12px;
+  font-weight: 700;
+  color: red;
+  margin-right: 20rpx;
+}
+/* 正在拼团列表 */
+.canjoin-course-list{
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 10rpx 0;
+  margin-left: 15rpx;
+  /* border-top: 1px solid #726dd1; */
+}
+/* 正在拼团图片样式 */
+.canjoin-course-list image{
+  width: 60rpx;
+  height: 60rpx;
+  border: 1px solid #726dd1;
+  border-radius: 40rpx;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 5rpx;
+}
+/* 正在拼团团长名字 */
+.canjoin-course-list .tuanzhang-name{
+  font-size: 12px;
+  padding: 0 15rpx;
+  display: inline-block;
+}
+/* 正在拼团团员头像 */
+.canjoin-course-list .tuanyuan-touxiang{
+  width: 50rpx;
+  height: 50rpx;
+}
+/* 正在拼团按钮，提示（加入我们，还差几人） */
+.join-us,
+.lack-people{
+  float: right;
+  font-size: 12px;
+  display: inline;
+}
+/* 正在拼团加入我们 */
+.join-us{
+  color: #fff;
+  padding: 8rpx 12rpx; 
+  margin-top: 21rpx;
+  margin-right: 8rpx;
+  line-height: 1;
+  border-radius: 12rpx;
+  background-color: #d0e9ff;
+}
+/* 正在拼团欠缺人数 */
+.lack-people{
+  margin-right: 10rpx;
+  color: #1db0b8
+}
+
+/* 课程大纲 */
+.Syllabus{
+  margin-top: 40rpx;
+  padding-bottom: 20rpx;
+  background-color: #fff;
+}
+
+/* 课程大纲列表 */
+.Syllabus-list{
+  padding: 15rpx;
+  margin-left: 15rpx;
+  height: 100rpx;
+  font-size: 12px;
+  border-top: 1px solid #726dd1;
+}
+
+.Syllabus-catalog-num{
+  display: inline-block;
+  font:700 16px/1 "正楷";
+}
+
+.Syllabus-time{
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  margin-right: 15rpx;
+  color: #1db0b8;
+}
+
+.Syllabus-catalog-name{
+  margin-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-weight: 600;
+}
+
+/* 课程介绍 */
+.course-ingo-box{
+  font-size: 12px;
+  margin-top: 40rpx;
+  padding-bottom: 20rpx;
+  background-color: #fff;
+}
+
+.course-ingo-content{
+  font-size: 14px;
+  border-top: 1px solid #726dd1;
+  padding: 15rpx;
+  margin-left: 15rpx;
+}
+
+/* 课程收益 */
+.course-profit,
+.must-know{
+  margin-top: 40rpx;
+  padding-bottom: 20rpx;
+  background-color: #fff;
+}
+.course-profit-content,
+.must-know-content{
+  border-top: 1px solid #726dd1;
+  padding: 15rpx;
+  margin-left: 15rpx;
+}
+.course-profit-list,
+.must-know-list{
+  font-size: 14px;
+}
+
+.launch-group{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 0;
+  color: #fff;
+  background-color: #726dd1;
+}
+
+.select-teacher{
+  margin-top: 20rpx;
+}
+
+.teacher-info{
+  /* margin-top: 40rpx; */
+  background-color: #fff;
+  overflow: hidden
+}
+
+.teacher-info-content{
+  padding: 15rpx;
+}
+
+.teacher-group{
+  overflow: hidden
+}
+
+.teacher-touxiang{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  margin-left: 30rpx;
+  float: left
+}
+
+.teacher-name-school{
+  float: left;
+  margin-left: 20rpx;
+  padding-bottom: 15rpx;
+}
+
+.teacher-name{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.teacher-school{
+  font-size: 14px;
+  color: #cccccc
+}
+
+.teacher-declaration{
+  padding: 35rpx;
+  font-size: 14px;
+}
+
+.count-down{
+  position: absolute;
+  top: 15rpx;
+  right: 15rpx;
+  font-size: 12px;
+  background-color: rgba(255,255,255,.8);
+  padding: 0 15rpx;
+}

@@ -1,0 +1,20 @@
+/* pages/mymotalk/notice/notice.wxss */
+page{
+  background-color: #fff;
+}
+.notice{
+  background-color: #fff;
+  text-align: center;
+  padding: 30rpx;
+}
+
+.noticeTitle{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.noticeInfo{
+  text-align:left;
+  text-indent:2em;
+  margin-top: 20rpx;
+}

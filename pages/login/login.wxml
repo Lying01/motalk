@@ -1,0 +1,4 @@
+<!--pages/login/login.wxml-->
+<view class='appName' animation="{{animationData}}">
+  组团刷课
+</view>

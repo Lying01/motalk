@@ -1,0 +1,58 @@
+<!--pages/mymotalk/myclass/myclass.wxml-->
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for-items="{{tabs}}" wx:key="{{index}}">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+
+                <!--正在就读班级列表  -->
+                  <scroll-view scroll-y='true' style='height:100%;'>
+                    <view wx:for="{{[1,2,3,4,5,6]}}" class='classlist' style='background-color:#fff;' wx:key="showExpress">
+                      <button id="{{index}}" class='seeDetail' bindtap='seeDetail'>查看详情</button>
+                      <view  class='cover'><image src='../../../static/images/detail_kefu.png'></image></view>
+                      <view class='info'>
+                        <text><text class='claName'>班级名是BCDBCD名是BCDBC名是BCDBC名是BCDBC</text>班级成员 
+                        讲师：小R
+                        </text>
+                      </view>
+                      <view class='classMans'><image src='../../../static/images/detail_kefu.png'></image></view>
+                      <view class='classMans' style='margin-left:460rpx'><image src='../../../static/images/detail_kefu.png'></image></view>
+                      <view class='classMans' style='margin-left:510rpx'><image src='../../../static/images/detail_kefu.png'></image></view>
+                    </view>
+                    <view class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+                        <view class="weui-loadmore__tips weui-loadmore__tips_in-line weui-loadmore__tips_in-dot"></view>
+                    </view>
+                  </scroll-view>
+                </view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                <!--历史就读班级列表  -->
+                <scroll-view scroll-y='true' style='height:100%;'>
+                    <view wx:for="{{[1,2,3,4,5,6]}}" class='classlist' style='background-color:#fff;' wx:key="showExpress">
+                      <button id="{{index}}" class='seeDetail' bindtap='seeDetail'>查看详情</button>
+                      <view  class='cover'><image src='../../../static/images/detail_kefu.png'></image></view>
+                      <view class='info'>
+                        <text><text class='claName'>历史就读班级历史就读班级历史就读班级</text>班级成员 
+                        讲师：小R
+                        </text>
+                      </view>
+                      <view class='classMans'><image src='../../../static/images/detail_kefu.png'></image></view>
+                      <view class='classMans' style='margin-left:460rpx'><image src='../../../static/images/detail_kefu.png'></image></view>
+                      <view class='classMans' style='margin-left:510rpx'><image src='../../../static/images/detail_kefu.png'></image></view>
+                    </view>
+                    <view class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+                        <view class="weui-loadmore__tips weui-loadmore__tips_in-line weui-loadmore__tips_in-dot"></view>
+                    </view>
+                  </scroll-view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,42 @@
+/* pages/syllabus/syllabus.wxss */
+.syllabus-header{
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 700;
+  padding: 15rpx 350rpx 15rpx 30rpx;
+  margin-top: 40rpx;
+  color: #fff;
+  background-color: #726DD1;
+}
+
+.syllabus-content{
+  padding: 10rpx;
+  margin-top: 30rpx;
+}
+
+.syllabus-list-item{
+  padding: 10rpx;
+  border-top: 1px solid #ccc;
+}
+
+.syllabus-info{
+  line-height: 35px;
+}
+
+.syllabus-num{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.syllabus-time{
+  display: inline-block;
+  float: right;
+  vertical-align: baseline;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.syllabus-name{
+  font-size: 16px;
+}

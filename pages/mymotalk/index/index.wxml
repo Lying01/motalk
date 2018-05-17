@@ -1,0 +1,106 @@
+<view class="container">
+<navigator url="../myinfo/myinfo">
+  <view class="profile-info">
+    <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+    <view class="info">
+      <text class="name">{{userInfo.nickName}}</text>
+      <!-- <text class="level">{{userInfo.username}}</text> -->
+    </view>
+  </view>
+  </navigator>
+
+  <view class="user-menu">
+    <view class="item">
+      <navigator url="../myregist/myregist" class="a">
+        <text class="icon order"></text>
+        <text class="txt">我的报名</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="../mycourses/mycourses" class="a">
+        <text class="icon coupon"></text>
+        <text class="txt">我的课程</text>
+      </navigator>
+    </view>
+    <view class="item no-border">
+      <navigator url="../myclass/myclass" class="a">
+        <text class="icon gift"></text>
+        <text class="txt">我的班级</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="../myclassroom/myclassroom" class="a">
+        <text class="icon address"></text>
+        <text class="txt">我的教室</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="../mypreview/mypreview" class="a">
+        <text class="icon security"></text>
+        <text class="txt">课前预习</text>
+      </navigator>
+    </view>
+    <view class="item no-border">
+      <navigator url="../myhomework/myhomework" class="a">
+        <text class="icon kefu"></text>
+        <text class="txt">我的作业</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="../myreview/myreview" class="a">
+        <text class="icon address"></text>
+        <text class="txt">课程回放</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="../mywords/mywords" class="a">
+        <text class="icon security"></text>
+        <text class="txt">我的单词</text>
+      </navigator>
+    </view>
+    <view class="item no-border">
+      <navigator url="../mypower/mypower" class="a">
+        <text class="icon kefu"></text>
+        <text class="txt">获得能力</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="../mynotice/mynotice" class="a">
+        <text class="icon address"></text>
+        <text class="txt">我的通知</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="../myreport/myreport" class="a">
+        <text class="icon security"></text>
+        <text class="txt">学期报告</text>
+      </navigator>
+    </view>
+    <view class="item no-border">
+      <navigator url="../myleave/myleave" class="a">
+        <text class="icon kefu"></text>
+        <text class="txt">集体请假</text>
+      </navigator>
+    </view>
+    <view class="item item-bottom">
+      <navigator url="../suggestions/suggestions" class="a">
+        <text class="icon help"></text>
+        <text class="txt">意见反馈</text>
+      </navigator>
+    </view>
+    <view class="item item-bottom">
+      <navigator url="url" class="a">
+        <text class="icon feedback"></text>
+        <text class="txt">联系客服</text>
+      </navigator>
+    </view>
+    <view class="item item-bottom">
+      <navigator url="url" class="a">
+        <text class="icon help"></text>
+        <text class="txt">待开发</text>
+      </navigator>
+    </view>
+  </view>
+
+  <!--<view class="logout" bindtap="exitLogin">退出登录</view>-->
+</view>

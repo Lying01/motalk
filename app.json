@@ -1,0 +1,70 @@
+{
+  "pages":[
+    "pages/course/course",
+    "pages/mymotalk/index/index",
+    "pages/mymotalk/wordlist/wordlist",
+    "pages/mymotalk/myreview/myreview",
+    "pages/mymotalk/myreport/myreport",
+    "pages/mymotalk/myleave/myleave",
+    "pages/mymotalk/myhomework/myhomework",
+    "pages/mymotalk/mypower/mypower",
+    "pages/mymotalk/mynotice/mynotice",
+    "pages/mymotalk/notice/notice",
+    "pages/mymotalk/leaveinfo/leaveinfo",
+    "pages/mymotalk/appleave/appleave",
+    "pages/mymotalk/mywords/mywords",
+    "pages/mymotalk/mypreview/mypreview",
+    "pages/mymotalk/previewlist/previewlist",
+    "pages/mymotalk/courseslist/courseslist",
+    "pages/mymotalk/classroomlist/classroomlist",
+    "pages/mymotalk/myclassroom/myclassroom",
+    "pages/mymotalk/mycourses/mycourses",
+    "pages/mymotalk/myregist/myregist",
+    "pages/mymotalk/signdetail/signdetail",
+    "pages/mymotalk/roomdetail/roomdetail",
+    "pages/mymotalk/classdetail/classdetail",
+    "pages/mymotalk/myclass/myclass",
+    "pages/mymotalk/myinfo/myinfo",
+    "pages/logs/logs",
+    "pages/userinfo/userinfo",
+    "pages/course_details/course_details",
+    "pages/existing_team/existing_team",
+    "pages/join_group/join_group",
+    "pages/syllabus/syllabus",
+    "pages/launch_group/launch_group",
+    "pages/index/index",
+    "pages/group_course/group_course"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#726DD1",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#726DD1",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/course/course",
+        "iconPath": "static/images/ic_menu_choice_nor.png",
+        "selectedIconPath": "static/images/ic_menu_choice_pressed.png",
+        "text": "预定课程"
+      },
+      {
+        "pagePath": "pages/existing_team/existing_team",
+        "iconPath": "static/images/ic_menu_topic_nor.png",
+        "selectedIconPath": "static/images/ic_menu_topic_pressed.png",
+        "text": "组班大本营"
+      },
+      {
+        "pagePath": "pages/mymotalk/index/index",
+        "iconPath": "static/images/ic_menu_me_nor.png",
+        "selectedIconPath": "static/images/ic_menu_me_pressed.png",
+        "text": "我的Motalk"
+      }
+    ]
+  }
+}

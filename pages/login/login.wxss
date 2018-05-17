@@ -1,0 +1,15 @@
+/* pages/login/login.wxss */
+.appName{
+  text-align: center;
+  font-weight: 700;
+  font-size: 100rpx;
+  margin-top: 150rpx;
+  color: #726DD1;
+  text-shadow: 2px 2px 3px rgba(0,0,0,.8);
+  font-style: italic;
+}
+/* page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: red;  
+}   */

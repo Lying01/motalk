@@ -1,0 +1,73 @@
+<!--pages/mymotalk/myregist/myregist.wxml-->
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for-items="{{tabs}}" wx:key="{{index}}">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+                <!--报名中  -->
+                <scroll-view scroll-y='true' style='height:100%;'>
+                    <view wx:for="{{[1,2,3,4,5,6]}}" class='classlist' style='background-color:#fff;' wx:key="showExpress">
+                      <button id="{{index}}" class='seeDetail' bindtap='seeDetail'>查看详情</button>
+                      <view  class='cover'><image src='../../../static/images/detail_kefu.png'></image></view>
+                      <view class='info'>
+                        <text><text class='claName'>历史就读班级历史就读班级历史就读班级</text>
+                        <text class='details' style='color:#666'>1周一次，每次一课时（30~40min），共28次</text>
+                        <text class='tip' style='color:#726DD1'>已有3人，还差1人</text>
+                        </text>
+                      </view>
+                    </view>
+                    <view class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+                        <view class="weui-loadmore__tips weui-loadmore__tips_in-line weui-loadmore__tips_in-dot"></view>
+                    </view>
+                  </scroll-view>
+                </view>
+
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                <!--等待支付  -->
+                <scroll-view scroll-y='true' style='height:100%;'>
+                    <view wx:for="{{[1,2,3,4,5,6]}}" class='classlist' style='background-color:#fff;' wx:key="showExpress">
+                      <button id="{{index}}" class='seeDetail' bindtap='seeDetail'>前往支付</button>
+                      <view  class='cover'><image src='../../../static/images/detail_kefu.png'></image></view>
+                      <view class='info'>
+                        <text><text class='claName'>历史就读班级历史就读班级历史就读班级</text>
+                        <text class='details' style='color:#666'>1周一次，每次一课时（30~40min），共28次</text>
+                        <text class='tip' style='color:#726DD1'>恭喜！该班已成团！</text>
+                        </text>
+                      </view>
+                    </view>
+                    <view class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+                        <view class="weui-loadmore__tips weui-loadmore__tips_in-line weui-loadmore__tips_in-dot"></view>
+                    </view>
+                  </scroll-view>
+                </view>
+
+                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
+                <!--报名失败  -->
+                <scroll-view scroll-y='true' style='height:100%;'>
+                    <view wx:for="{{[1,2,3,4,5,6]}}" class='classlist' style='background-color:#fff;' wx:key="showExpress">
+                      <button id="{{index}}" class='seeDetail' bindtap='seeDetail'>查看详情</button>
+                      <view  class='cover'><image src='../../../static/images/detail_kefu.png'></image></view>
+                      <view class='info'>
+                        <text><text class='claName'>历史就读班级历史就读班级历史就读班级</text>
+                        <text class='details' style='color:#666'>1周一次，每次一课时（30~40min），共28次</text>
+                        <text class='tip' style='color:#666'>抱歉！该报名已失效！</text>
+                        </text>
+                      </view>
+                    </view>
+                    <view class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+                        <view class="weui-loadmore__tips weui-loadmore__tips_in-line weui-loadmore__tips_in-dot"></view>
+                    </view>
+                  </scroll-view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

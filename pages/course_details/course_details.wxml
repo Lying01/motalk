@@ -1,0 +1,106 @@
+<!--pages/course_details/course_details.wxml-->
+<image style="width:100%; background-color: #eeeeee;"  mode="scaleToFill" src="../../static/images/test.jpg"></image>
+<view class='course_names'>
+  <view class='name_course'>机器学习核心算法实战 [5场直播，实时答疑]，欢迎参与，谢谢合作</view>
+  <view class='info_course'>开播时间，5月10号起每周二、四晚20：00准点直播</view>
+</view>
+
+<!-- 正在拼团 -->
+<view class="pintuan-box">
+  <view class='row-title'>
+    正在拼团
+    <view class='more'>更多>></view>
+  </view>
+  <view class='canjoin-course-list' bindtap='join_course'>
+     <image class='tuanzhang-touxiang' src="../../../static/images/detail_kefu.png" /> 
+     <view class='tuanzhang-name'>jpg***56</view>
+     <image class='tuanyuan-touxiang' src="../../../static/images/detail_kefu.png" /> 
+     <image class='tuanyuan-touxiang' src="../../../static/images/detail_kefu.png" /> 
+     <image class='tuanyuan-touxiang' src="../../../static/images/detail_kefu.png" /> 
+     <view class='join-us'>go</view>
+     <view class='lack-people'>还差1人</view>
+  </view>
+  <view class='canjoin-course-list' bindtap='join_course'>
+     <image class='tuanzhang-touxiang' src="../../../static/images/detail_kefu.png" /> 
+     <view class='tuanzhang-name'>jpg***56</view>
+     <image class='tuanyuan-touxiang' src="../../../static/images/detail_kefu.png" /> 
+     <image class='tuanyuan-touxiang' src="../../../static/images/detail_kefu.png" /> 
+     <view class='join-us'>go</view>
+     <view class='lack-people'>还差1人</view>
+  </view>
+  <view class='canjoin-course-list' bindtap='join_course'>
+     <image class='tuanzhang-touxiang' src="../../../static/images/detail_kefu.png" /> 
+     <view class='tuanzhang-name'>jpg***56</view>
+     <image class='tuanyuan-touxiang' src="../../../static/images/detail_kefu.png" /> 
+     <view class='join-us'>go</view>
+     <view class='lack-people'>还差1人</view>
+  </view>
+</view>
+
+<!-- 课程大纲 -->
+<view class='Syllabus'>
+  <view class='row-title'>课程大纲
+    <view class='more' bindtap='syllabus_more'>更多>></view>
+  </view>
+  <view>
+    <view class='Syllabus-list'>
+      <view class='Syllabus-catalog'>
+        <view class='Syllabus-catalog-num'>第一章</view>
+        <view class='Syllabus-time'>5月10日 20：10</view>
+      </view>
+      <view class='Syllabus-catalog-name'>机器学习入门算法-K近邻算法</view>
+    </view>
+    <view class='Syllabus-list'>
+      <view class='Syllabus-catalog'>
+        <view class='Syllabus-catalog-num'>第二章</view>
+        <view class='Syllabus-time'>5月10日 20：10</view>
+      </view>
+      <view class='Syllabus-catalog-name'>机器学习入门算法-K近邻算法</view>
+    </view>
+    <view class='Syllabus-list'>
+      <view class='Syllabus-catalog'>
+        <view class='Syllabus-catalog-num'>第三章</view>
+        <view class='Syllabus-time'>5月10日 20：10</view>
+      </view>
+      <view class='Syllabus-catalog-name'>机器学习入门算法-K近邻算法</view>
+    </view>
+  </view>
+</view>
+
+<!-- 课程介绍 -->
+<view class='course-ingo-box'>
+  <view class='row-title'>
+    课程介绍
+  </view>
+  <view class='course-ingo-content'>
+    水是滋养万物的源泉，对于凤凰来说，更如是。一条沱江穿城而过，给展翅的凤凰注入了生命的活力。作为凤凰的母亲河，边城的钟灵毓秀，与这条黄金水道密不可分，千百年来，迎来送往，将世界铺展在你的眼前。曾经，许许多多的年轻人，就是顺着这条蜿蜒曲折的河流直下，穿过洞庭，沿着人生向往的轨迹，去翻阅另一.....
+  </view>
+</view>
+
+<!-- 课程收益 -->
+<view class='course-profit'>
+  <view class='row-title'>
+    课程收益
+  </view>
+  <view class='course-profit-content'>
+    <view class='course-profit-list'>1、如果你不会，那就是你不了解他</view>
+    <view class='course-profit-list'>2、如果你不会，那就是你不了解他</view>
+    <view class='course-profit-list'>3、如果你不会，那就是你不了解他</view>
+    <view class='course-profit-list'>4、如果你不会，那就是你不了解他</view>
+    <view class='course-profit-list'>5、如果你不会，那就是你不了解他</view>
+  </view>
+</view>
+
+<!-- 报名须知 -->
+<view class='must-know'>
+  <view class='row-title'>
+    报名须知
+  </view>
+  <view class='must-know-content'>
+    <view class='must-know-list'>1、拼团不成功，全额返还金额</view>
+    <view class='must-know-list'>2、未参与直播的同学，可会查看回放</view>
+  </view>
+</view>
+
+<!-- 发起组团 -->
+<button class='launch-group' bindtap='launch_group'>发起组团</button>

@@ -1,0 +1,5 @@
+<!--pages/mymotalk/notice/notice.wxml-->
+<view class='notice'>
+  <view class='noticeTitle'>系统通知</view>
+  <view class='noticeInfo'>  亲爱的XX您好，我是一则通知。由于系统升级，目前XXX模块的XX功能无法使用，对您带来的不便之处敬请谅解。</view>
+</view>

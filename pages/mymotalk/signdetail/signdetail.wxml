@@ -1,0 +1,44 @@
+<!--pages/mymotalk/signdetail/signdetail.wxml-->
+<view class='container-lin'>
+  <view class='course-info'>
+    <image class='course-image' src='../../../static/images/detail_kefu.png' mode='scaleToFill'></image>
+    <view class='course-name'>
+      希望以后还有上图这种风景，我骑着行车追着我的狗，而狗子又做错了什么呢
+    </view>
+    <view class='course-time'>
+        <text class='className'>1周一次，每次一课时（30~40min），共28次</text>
+    </view>
+    <view class='course-time'>
+      <text class="className">上课时间：</text>
+      <text class='className'>2018. 05.30 —— 2018.06.30</text>
+    </view>
+    <view class='course-time'>
+      <text class="className">讲师：</text>
+      <text class='className'>Lisa</text>
+      <text style='float:right;color:#726DD1;margin-right:30rpx'>￥3000.0</text>
+    </view>
+  </view>
+  <view class='class-info-box'>
+    <view class='rou-title'>
+      报名进度
+    </view>
+    <view class='class-detail'>
+      <view style='margin-top:30rpx'>
+        <image src='../../../static/images/detail_kefu.png'></image>
+        <image src='../../../static/images/detail_kefu.png'></image>
+        <image src='../../../static/images/detail_kefu.png'></image>
+      </view>
+      <view class='tips'>
+      <text>还差一人即可成团</text>
+      <text>点击页面右上角分享给朋友一起参团吧</text>
+      </view>
+      <view class='tips'>
+      <text style='color:#ff6060'>组班倒计时</text>
+      <text style='color:#ff6060'>仅剩 6天13小时45分钟</text>
+      <text style='color:#666'>注：若倒计时结束而组班未满人，该组班活动将自动取消。</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<button class="cancel">取消报名</button>
